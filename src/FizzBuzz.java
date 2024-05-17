@@ -33,13 +33,13 @@ class FizzBuzz {
  */
         int i = 1;
         while (i <= 99){
-            i = getI(i);
+            i = doFizzBuzz(i);
 
         }
 
         }
 
-    private static int getI(int i) {
+    private static int doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
